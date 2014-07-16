@@ -3,6 +3,10 @@
 	font-size: 18px;
 }
 
+.mrHero {
+	z-index: -1000
+	margin-top: -200px;
+}
 
 .dropdown-large {
   position: static !important;
