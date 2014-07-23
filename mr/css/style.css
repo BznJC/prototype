@@ -86,6 +86,13 @@
   height: 600px;
 }
 
+.mrHeroImage {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-100;
+
+}
 
 .mrBkground {
 	border: solid 1px #ccc;
