@@ -5,11 +5,62 @@
 
 .mrNavBar{
 	z-index:1000;
-}
-
-.mrHeroImage {
 
 }
+
+/* ------------------------------    CUSTOM MR STYLES ------------------------ */
+/* body { padding-top: 75px; } */
+
+.heroInner {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 15px;
+	margin-top: -150px;
+	background-color: #FFF;
+	z-index: -1000;
+}
+
+.carousel-caption {
+	position: absolute;
+	right: 55%;
+	top: 75%;
+	left: 20%;
+	z-index: 1000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	color: #fff;
+	text-align: left;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.mrBox {
+	height: 50px;
+	background-color:#ccc;
+}
+
+.banner{
+	font-size:35px;
+  	font-weight: 200;
+ 	 line-height: 1.4;
+}
+.carousel-captionOffer {
+  position: absolute;
+  right: 15%;
+  top: 15px;
+  left: 3%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:20px;
+  color: #6c6c6c;
+  text-align: left;
+  font-size:20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
 
 .dropdown-large {
   position: static !important;
@@ -99,9 +150,6 @@
 
 }
 
-.mrBkground {
-	border: solid 1px #ccc;
-	}
 
 .mrFooter {
 	background-color: #dcdddf;
@@ -111,6 +159,57 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	min-height: 220px;	
+}
+
+.mrCol {
+	border: solid 1px #ccc;
+}
+
+/*
+@media (min-width: 768px) and (max-width: 991px) {
+
+.heroInner {
+ margin-top:0px;
+}
+
+.banner {
+	font-size:20px;
+}
+
+}
+*/
+
+@media (max-width: 767px)
+{
+
+.heroInner {
+	height: 300px;
+	margin-top: -205px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+}
+
+.heroInner img{
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding-top:100px;
+    /* display:none; */
+}
+
+.heroInnerLithium{
+	height: auto;
+}
+
+.mrNavBar{
+	z-index:1000;
+
+}
+
+.carousel-caption {
+	display:none;  
+}
+
 }
 
 
@@ -129,6 +228,20 @@
     padding: 3px 15px !important;
   }
 }
+
+
+@media (max-width: 360px)
+{
+
+.heroInner {
+    height:220px;
+	margin-top:-85px;
+    padding-top:0px;
+    margin-bottom:0px;
+}
+
+}
+
 
 /* Change the width of the navbar */
 
